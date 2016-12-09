@@ -1,0 +1,45 @@
+{
+	"variables": [],
+	"info": {
+		"name": "jjj",
+		"_postman_id": "daf51f8c-4cc4-b9e5-3d46-19aba9afe874",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8082/ping",
+			"request": {
+				"url": "localhost:8082/ping",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/message",
+			"request": {
+				"url": "localhost:8082/message",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"message\" : \"hello world\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
