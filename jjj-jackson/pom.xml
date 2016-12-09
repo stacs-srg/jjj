@@ -13,7 +13,6 @@
     <artifactId>jjj-jackson</artifactId>
 
     <dependencies>
-
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-json-jackson</artifactId>
@@ -28,11 +27,6 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-annotations</artifactId>
-            <version>${jackson.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.jaxrs</groupId>
-            <artifactId>jackson-jaxrs-json-provider</artifactId>
             <version>${jackson.version}</version>
         </dependency>
     </dependencies>

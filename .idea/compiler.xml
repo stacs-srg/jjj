@@ -13,6 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jjj" target="1.8" />
       <module name="jjj-example" target="1.8" />
       <module name="jjj-jackson" target="1.8" />
       <module name="jjj-jetty" target="1.8" />
