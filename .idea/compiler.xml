@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jjj-example" />
+        <module name="jjj-jackson" />
+        <module name="jjj-jetty" />
+        <module name="jjj-rest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jjj-example" target="1.8" />
+      <module name="jjj-jackson" target="1.8" />
+      <module name="jjj-jetty" target="1.8" />
+      <module name="jjj-rest" target="1.8" />
+      <module name="jjjexample" target="1.8" />
+      <module name="jjjrest" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
