@@ -8,3 +8,9 @@ Feel free to take this project as a starting point when building a RESTful serve
 ---
 
 Run `mvn dependency:analyze` to analyze this project maven dependencies.
+
+### Alternatives
+
+- [Dropwizard](https://github.com/dropwizard/dropwizard)
+- [Play Framework](https://www.playframework.com/)
+- [RestExpress](https://github.com/RestExpress)

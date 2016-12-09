@@ -19,6 +19,7 @@ public class RESTConfig extends ResourceConfig {
         register(JacksonProvider.class);
         register(JacksonFeature.class);
 
+        // NOTE: Disable when not debugging!
         property(ServerProperties.TRACING, "ALL");
         property(ServerProperties.TRACING_THRESHOLD, "VERBOSE");
         property(ServerProperties.WADL_FEATURE_DISABLE, "true");
