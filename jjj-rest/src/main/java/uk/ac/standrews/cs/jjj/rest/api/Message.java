@@ -15,11 +15,6 @@ import javax.ws.rs.core.Response;
 @Path("/message")
 public class Message {
 
-    @GET
-    public Response ping() {
-        return null;
-    }
-
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     public Response postMessage(MessageModel messageModel) {
