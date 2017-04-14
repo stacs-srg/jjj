@@ -4,6 +4,14 @@
 
 Feel free to take this project as a starting point when building a RESTful server.
 
+---
+
+You can find a naïve example on how to use **jjj** under jjj-example. The example can also be run using Docker. 
+
+```
+$ docker build -t jjj_example .
+$ docker run jjj_example
+```
 
 ---
 
