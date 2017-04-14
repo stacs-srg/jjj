@@ -10,7 +10,7 @@ You can find a naïve example on how to use **jjj** under jjj-example. The examp
 
 ```
 $ docker build -t jjj_example .
-$ docker run jjj_example
+$ docker run -p 0.0.0.0:8082:8082 jjj_example
 ```
 
 ---
